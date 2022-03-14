@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(107, 224, 127);
+    
+}
+h3 {
+    font-size: 2rem;
+}
+ul li {
+    display: inline;
+    margin-left: 2.5em;
+}
+.hero-bg {
+    background-image: url(../images/analyst.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.589);
+    box-shadow: rebeccapurple;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h4 {
+    font-size: 3rem;
+}
+p{
+    font-size: 1rem;
+    padding-top: 0.9em;
+}
+.btn {
+    margin-top: 3rem;
+    padding: 15px 40px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+}
+.container-sides-control{
+    display: flex;
+}
+.container1{
+    background-color: black;
+    height: 500px;
+    position: relative;
+    margin-top: -7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: white;
+    padding: 10px;    
+}
+h2 {
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+.conatiner-side1 {
+    width: 40%;
+    margin-right: 10px;
+    padding: 15px;
+}
+.container-top-award {
+    display: flex;
+    padding-bottom: 20px;
+}
+.award-img {
+    height: 450px;
+    width: 450px;
+}
+.container-side2 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.content {
+    padding: 2em;
+}
+.content-description {
+    margin-bottom: 2em;
+}
+.content-title {
+    display: flex;
+}
+h5 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+p {
+    font-size: 0.9rem;
+    padding-bottom: 15px;
+}
+.readmore {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Responsive part... Media Queries */
+@media (max-width: 768px) {
+    .hero-bg {
+        background-image: url(../images/analyst.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.589);
+        box-shadow: rebeccapurple;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    h4 {
+        font-size: 1.7rem;
+    }
+    .btn {
+        margin-top: 1rem;
+    }
+    .container-sides-control{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        margin: 0 auto;
+        height: auto;   
+    }
+    .conatiner-side1 {
+        width: 100%;
+        margin-right: 10px;
+        padding: 15px;
+    }
+    h2 {
+        margin-left: 20px;
+        padding-bottom: 15px;
+        font-size: 1.3rem;
+    }
+    .award-img {
+        height: 400px;
+        width: auto;
+    }
+    .container-side2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    .content {
+        padding: 0.3em;
+    }
+}
+
+/* MEdia Queries for small Screen */
+@media (max-width: 500px) {
+    .hero-bg {
+        background-image: url(../images/analyst.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.589);
+        box-shadow: rebeccapurple;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    h4 {
+        font-size: 1.7rem;
+    }
+    .btn {
+        margin-top: 1rem;
+    }
+    .container-sides-control{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        margin: 0 auto;
+        height: auto;   
+    }
+    .conatiner-side1 {
+        width: 100%;
+        margin-right: 10px;
+        padding: 15px;
+    }
+    h2 {
+        margin-left: 20px;
+        padding-bottom: 15px;
+        font-size: 1.1rem;
+    }
+    .award-img {
+        height: 300px;
+        width: 320px;
+    }
+    .container-side2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    .content {
+        padding: 0.3em;
+    }
+}
+
+/* MEdia Queries for mini Screen */
+@media (max-width: 320px) {
+    h4 {
+        font-size: 1.3rem;
+    }
+    h2 {
+        margin-left: 20px;
+        padding-bottom: 15px;
+        font-size: 0.8rem;
+    }
+    .award-img {
+        height: 200px;
+        width: 250px;
+    }
+}
